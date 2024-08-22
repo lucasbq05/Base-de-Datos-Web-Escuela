@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foro Escolar</title>
+    <link rel="stylesheet" href="../ESTILOS/stylesnoticias.css">
+</head>
+<body>
+    <header>
+        <h1>Escuela Tecnica n°2 Emilio rebuelto</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="registrarse.html">Registrarse</a></li>
+                <li><a href="iniciar-sesion.html">Iniciar sesión</a></li>
+                <li><a href="dudas.html">Dudas</a></li>
+                <li><a href="blogbiblioteca.html">blog biblioteca</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <h2 class="ultima">Últimas noticias</h2>
+            <form id="formulario-noticia" action="tu_script_de_autenticacion.php" method="post">
+                <label for="titulo">Título:</label>
+                <input type="text" id="titulo" name="titulo" required>
+                <label for="texto">Texto:</label>
+                <textarea id="texto" name="texto" required></textarea>
+                <button id="boton-submit" type="submit">Publicar noticia</button>
+            </form>
+            <div id="contenedor-noticias">
+                <!-- Aquí se mostrarán las noticias publicadas -->
+                <div class="noticia">
+                    <h3>Título de ejemplo</h3>
+                    <p>Texto de ejemplo para la noticia publicada.</p>
+                </div>
+                <!-- Más noticias pueden añadirse aquí -->
+            </div>
+            
+    </main>
+</body>
+</html>

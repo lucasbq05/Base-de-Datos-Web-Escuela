@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(0, 174, 255);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.ultima{
+    text-align: center;
+}
+
+#noticias {
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#formulario-noticia label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#formulario-noticia input,
+#formulario-noticia textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#formulario-noticia button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#formulario-noticia button:hover {
+    background-color: #0056b3;
+}
+
+#contenedor-noticias {
+    margin-top: 20px;
+}
+
+.noticia {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.profile {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.profile-photo-container {
+    flex: 1;
+    text-align: center;
+}
+
+.profile-photo {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.profile-description {
+    flex: 2;
+    max-width: 600px;
+}
+
+.profile-description h2 {
+    margin-top: 0;
+}
